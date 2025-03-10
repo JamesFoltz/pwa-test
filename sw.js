@@ -1,10 +1,9 @@
-const CACHE_NAME = 'my-pwa-v1';
+const CACHE_NAME = 'v1';
 const ASSETS = [
-  './',
-  './index.html',
-  './styles.css',
-  './app.js',
-  './manifest.json'
+  '/',
+  '/index.html',
+  '/app.js',
+  '/styles.css'
 ];
 
 self.addEventListener('install', (event) => {
